@@ -144,3 +144,38 @@ nav a {
   padding: 10px;
   justify-content: center;
 }
+
+
+.portfolio-section-photos {
+  background-color: white;
+  gap: 15px;
+}
+
+
+.portfolio-section-photos h2 {
+  color: #242424;
+  margin: 80px;
+}
+
+.grid-paysages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 150px 150px;
+  gap: 15px;
+}
+
+
+.grid-portraits {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150fr 150fr;
+  gap: 15px;
+}
+
+
+.grid-paysages img,
+.grid-portraits img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
