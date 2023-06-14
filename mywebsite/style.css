@@ -49,10 +49,12 @@ footer {
 
 
 .cta {
+  display: inline-block;
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
   border-radius: 50px;
   padding: 20px 30px;
+  margin-top: 40px;
 }
 
 
@@ -124,6 +126,11 @@ nav a {
 }
 
 
+.accueil-introduction h1 {
+  margin-bottom: 25px;
+}
+
+
 .accueil-photos {
   background-color: white;
   padding: 80px;
@@ -154,7 +161,7 @@ nav a {
 
 .portfolio-section-photos h2 {
   color: #242424;
-  margin: 80px;
+  margin-bottom: 80px;
 }
 
 .grid-paysages {
@@ -162,6 +169,7 @@ nav a {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 150px 150px 150px;
   gap: 15px;
+  margin-bottom: 80px;
 }
 
 
@@ -178,4 +186,29 @@ nav a {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+
+.lien-conteneur-photos {
+position: relative;
+}
+
+
+.photo-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+
+.lien-conteneur-photos:hover .photo-hover {
+  display: flex;
 }
