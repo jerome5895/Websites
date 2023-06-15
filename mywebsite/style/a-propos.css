@@ -21,3 +21,30 @@
     width: 50%;
     margin: auto;
   }
+
+
+  table {
+    border-collapse: collapse;
+    color: white;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.5fr, 1fr, 1fr;
+  }
+
+
+  td {
+    border: 1px solid #8e86b5;
+    padding: 50px;
+  }
+  
+  
+  th {
+    border: 1px solid #8e86b5;
+    padding: 15px;
+    height: 15px;
+  }
+
+
+  caption {
+    margin-bottom: 50px;
+  }
