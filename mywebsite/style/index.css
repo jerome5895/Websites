@@ -1,89 +1,89 @@
 .accueil-photos {
-  background-color: white;
-  padding: 80px;
+  background-color: ;
+  padding: ;
 }
 
 .accueil-photos h2 {
-  color: #242424;
-  text-align: center;
-  margin-bottom: 80px;
+  color: ;
+  text-align: ;
+  margin-bottom: ;
 }
 
 .accueil-photos div {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-  justify-content: center;
-  margin-bottom: 15px;
+  display: ;
+  flex-direction: ;
+  gap: ;
+  justify-content: ;
+  margin-bottom: ;
 }
 
 .accueil-introduction {
-  display: flex;
-  flex-direction: row;
-  width: 60%;
-  align-items: flex-start;
-  margin: auto;
+  display: ;
+  flex-direction: ;
+  width: ;
+  align-items: ;
+  margin: ;
 }
 
 .accueil-introduction h1 {
-  margin-bottom: 15px;
+  margin-bottom: ;
 }
 
 .accueil-introduction p {
-  margin-bottom: 30px;
+  margin-bottom: ;
 }
 
 .accueil-introduction div {
-  padding-right: 80px;
+  padding-right: ;
 }
 
 
 .section-contact h2 {
-  color: #a5b4fc;
-  text-align: center;
-  margin-bottom: 50px;
+  color: ;
+  text-align: ;
+  margin-bottom: ;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  margin: auto;
-  color: white;
+  display: ;
+  flex-direction: ;
+  width: ;
+  margin: ;
+  color: ;
 }
 
 
 .form-nom-email {
-  display: flex;
-  gap: 20px;
+  display: ;
+  gap: ;
 }
 
 
 .form-column {
-  display: flex;
-  margin-bottom: 20px;
+  display: ;
+  margin-bottom: ;
 }
 
 
 input,
 textarea {
-  padding: 15px;
-  border-radius: 3px;
-  border: none;
+  padding: ;
+  border-radius: ;
+  border: ;
 }
 
 
 label {
-  margin-bottom: 10px;
+  margin-bottom: ;
 }
 
 
 input[type=submit] {
-  width: 200px;
-  margin: auto;
-  margin-top: 30px;
+  width: ;
+  margin: ;
+  margin-top: ;
 }
 
 ::placeholder {
-  opacity: 50%;
+  opacity: ;
 }
