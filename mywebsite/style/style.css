@@ -6,6 +6,8 @@ body {
   font-family: 'Manrope', sans-serif;
   font-size: 1em;
   background-color: #000000;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 nav {
